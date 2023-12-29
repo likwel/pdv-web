@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Prévision de vente - Login</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/styleIndex.css">
+	<link rel="shorcut icon" href="../static/icon/p.ico">
+	<link href="../static/css/acc.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+<div class="login-box">
+
+
+	<div class="row">
+      <div class="neons col-12">
+         <h1>Autentification</h1>
+      </div>
+  	</div>
+
+  	<form action="/import", method=POST enctype=multipart/form-data>
+	<div class="textbox">
+		<i><img src="../static/icon/user.png" class="img"></i>
+		<input type="text" placeholder="Utilisateur" name="username" value="{{request.form.username}}">
+	</div>
+	<div class="textbox">
+		<i><img src="../static/icon/login1.png" class="img"></i>
+		<input type="password" placeholder="Mot de passe" name="password" value="{{request.form.password }}">
+	</div>
+	<input class="btn" type="submit" name="" value="Connecter">
+	</form>
+	{% if error %}
+	<p class="error"><strong>Error : </strong>{{ error }}
+	{% endif %}
+</div>
+
+
+</body>
+</html>

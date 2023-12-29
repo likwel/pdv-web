@@ -1,0 +1,36 @@
+body{
+	background: url(../img/hero-bg.jpg)fixed no-repeat;
+	background-size: cover;
+}
+h1{
+	text-align: center;
+	margin-top: 20px;
+}
+.down{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+}
+.file{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: green;
+}
+.navimport{
+	margin-right: 60px;
+	margin-left: 60px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	
+}
+.navnav{
+	margin-top: -22px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}

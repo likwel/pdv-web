@@ -1,0 +1,23 @@
+
+body{
+    background-color: #79a3f8;
+    
+    
+}
+#authentifier{
+    margin-top: 25px;
+    text-align: center;
+    font-weight:bolder;
+}
+p{
+    color: blue;
+    font-style: italic;
+    margin-top: 10px;
+}
+#textAuth{
+     margin-top: 25px;
+    margin-right: 25px;
+}
+#paragraphe1{
+    margin-top: 25px;
+}

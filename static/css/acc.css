@@ -1,0 +1,30 @@
+#menutop{
+	margin-top: 0px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+	height: 50px;
+	border-radius: 8px;
+	opacity: 10px;
+}
+
+.navnav{
+	margin-top: -60px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+}
+
+.active {
+  background-color: red;
+}
+
+a:active{
+  background-color: red;
+}
